@@ -22,6 +22,7 @@ class ToDoListViewController: UIViewController {
         
         tableView.delegate = self
         tableView.dataSource = self
+
         
         loadData()
     }
